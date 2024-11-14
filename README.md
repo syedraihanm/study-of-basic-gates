@@ -1,5 +1,6 @@
-### study-of-basic-gates
-
+### 
+EXP1:Study of basic digital IC’s and verification of truth tables for different logic gates, realization using Verilog
+Name: Syed Mohamed Raihan Reg no: 24900516
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -63,17 +64,34 @@ Y= A⊕B
 
 
 **PROGRAM**
+module EXP1(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and g1(y1,a,b);
+or g2(y2,a,b);
+not g3(y3,a);
+nand g4(y4,a,b);
+nor g5(y5,a,b);
+xor g6(y6,a,b);
+xnor g7(y7,a,b);
+endmodule
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2024-11-14 at 11 13 34_5290708b](https://github.com/user-attachments/assets/cf882267-60f9-45a2-b92e-b73f3e464098)
+
 
 **RTL realization Output:** 
+![WhatsApp Image 2024-11-14 at 11 13 34_5290708b](https://github.com/user-attachments/assets/e1d77036-1cf8-426c-ae82-69ce3c516213)
+
 
 **RTL**
 
+![Screenshot 2024-11-14 110617](https://github.com/user-attachments/assets/392d073b-f4de-425d-b679-4bf4238b169f)
+
 **Result:**
+Thus the truth table of logic gates in Quartus II using Verilog programming is verified
 
 
