@@ -1,6 +1,7 @@
 ### 
-EXP1:Study of basic digital IC’s and verification of truth tables for different logic gates, realization using Verilog
-Name: Syed Mohamed Raihan Reg no: 24900516
+**EXP1:Study of basic digital IC’s and verification of truth tables for different logic gates, realization using Verilog**
+**Name: Syed Mohamed Raihan Reg no: 24900516**
+
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
